@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -11,9 +11,9 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, BookOpen, Coffee, Cookie, Flame, Globe, Heart, Home, MapPin, Menu, MessageSquare, Settings, Star, Users } from "lucide-react";
+import { Award, BookOpen, Coffee, Cookie, Flame, Globe, Heart, MapPin, Menu, MessageSquare, Settings, Star, Users } from "lucide-react";
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="shift-hover"
@@ -101,7 +101,7 @@ export default function Home() {
             {
               title: "Cozy Atmosphere",
               description: "Comfortable seating, free WiFi, and the perfect ambiance for work or relaxation",
-              icon: Home
+              icon: Coffee
             },
             {
               title: "Fresh Pastries",
